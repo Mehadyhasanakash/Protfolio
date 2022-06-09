@@ -17,6 +17,8 @@ const About = () => {
       <p>5. Building REST API</p>
       <p>6. Managing database</p>
 
+      <button className='btn  highlighted-btn color-button mb-10 mt-10'>Contact Me</button>
+
       
     </div>
     <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
@@ -26,6 +28,7 @@ const About = () => {
         
         
       </div>
+      
     </div>
   </div>
 </div>

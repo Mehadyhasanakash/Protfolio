@@ -1,43 +1,14 @@
 import React from 'react';
 import Typical from "react-typical";
+import About from '../About/About';
 import"./Profilo.css"
+
 
 
 const Profilo = () => {
     return (
 
        <>
-
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         <div className='profile-container'>
             <div className='profile-parent'>
@@ -51,9 +22,9 @@ const Profilo = () => {
                             <i className="fa-brands fa-facebook-f"></i>
                         </a>
 
-                        <a href="#">
+                        <a href="https://github.com/Mehadyhasanakash">
 
-                            <i className='fa-brands fa-google-plus'></i>
+                            <i className='fa-brands fa-github'></i>
                         </a>
 
                         <a href="https://www.instagram.com/hasanmdmehady/">
@@ -136,6 +107,7 @@ const Profilo = () => {
             </div>
 
         </div>
+        <About/>
 
         </>
     );
