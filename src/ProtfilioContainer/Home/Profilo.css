@@ -1,4 +1,4 @@
-.profile-container{
+.profile-container {
     display: flex;
     align-items: center;
     text-align: center;
@@ -7,30 +7,36 @@
     min-height: fit-content;
     background-color: rgba(0, 21, 60, 0.854);
 }
-.profile-parent{
+
+.profile-parent {
     display: flex;
     align-items: center;
     color: rgb(255, 255, 255);
 }
 
-.profile-details-name{
+.profile-details-name {
     font-size: 24px;
 }
-.profile-details-role{
+
+.profile-details-role {
     display: flex;
     flex-direction: column;
     margin: 14px 0 24px 0;
 }
-.profile-details-role h1{
-    font-size: 60px;
+
+.profile-details-role h1 {
+    font-size: 40px;
 }
-.primary-text{
+
+.primary-text {
     color: (--white);
 }
-.profile-role-tagline{
+
+.profile-role-tagline {
     font-size: 20px;
 }
-.profile-picture{
+
+.profile-picture {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,7 +46,8 @@
     width: 380px;
     margin: 0 0px 0 100px;
 }
-.profile-picture-background{
+
+.profile-picture-background {
     height: 92%;
     width: 92%;
     background-image: url(../../assets/Home/Md\ Mehady\ Hasan\ Akash.png);
@@ -48,4 +55,140 @@
     border-radius: 50%;
     background-repeat: no-repeat;
     background-position: center;
+    border: 2px solid white;
+}
+
+.profile-picture-background:hover {
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+
+.colz .colz-icon i {
+    color: white;
+    padding: 8px;
+    padding-left: 0px;
+}
+
+.colz .colz-icon i:hover {
+    transform: scale(1.5);
+}
+
+.profile-option {
+    display: flex;
+    justify-content: space-around;
+}
+
+.color-button {
+    color: white;
+    background-color: rgb(255, 119, 0);
+    border-radius: 0 20px 0 20px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.color-button:hover {
+    transform: scale(1.07);
+    transition: 1s ease-out;
+    color: rgb(7, 7, 7);
+}
+
+.color-btn:hover {
+    transform: scale(1.07);
+    transition: 1s ease-out;
+    color: yellow;
+}
+
+.color-btn {
+    color: white;
+    background-color: rgba(0, 16, 52, 0.786);
+    border-radius: 5px 20px 5px 20px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+@media screen and (max-width: 910px) {
+    .profile-picture {
+        height: 320px;
+        width: 320px;
+        width: 320px;
+        margin: 0 0 0 4px;
+    }
+
+    .color-button:hover {
+        transform: scale(1.07);
+        transition: 1s ease-out;
+        color: rgb(7, 7, 7);
+    }
+
+    .color-btn:hover {
+        transform: scale(1.07);
+        transition: 1s ease-out;
+        color: yellow;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .profile-picture {
+        margin: 0 ! important;
+    }
+
+    .profile-parent {
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+
+    .profile-option {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .profile-option .highlighted-btn {
+        margin: 0 !important;
+    }
+
+    .profile-options,
+    .profile-details-role {
+        text-align: center;
+    }
+
+    .color-button:hover {
+        transform: scale(1.07);
+        transition: 1s ease-out;
+        color: rgb(7, 7, 7);
+    }
+
+    .color-btn:hover {
+        transform: scale(1.07);
+        transition: 1s ease-out;
+        color: yellow;
+    }
+
+
+}
+
+
+@media screen and (max-width: 375px) {
+    .profile-picture {
+        height: 275px;
+        width: 275px;
+        margin-top: -90px;
+    }
+
+    .profile-details {
+        width: 90%;
+    }
+
+    .color-button:hover {
+        transform: scale(1.07);
+        transition: 1s ease-out;
+        color: rgb(7, 7, 7);
+    }
+
+    .color-btn:hover {
+        transform: scale(1.07);
+        transition: 1s ease-out;
+        color: yellow;
+    }
+
 }

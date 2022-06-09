@@ -76,14 +76,14 @@ const Profilo = () => {
 
                     <div className='profile-option'>
 
-                        <button className='btn btn-warning'>
+                        <button className='btn  highlighted-btn color-btn'>
 
                             {""}
                             Hire me
                         </button>
 
                         <a href="Resume_ Md Mehady Hasan Akash.pdf" download="Resume_ Md Mehady Hasan Akash.pdf">
-                            <button className='btn btn-success ml-5'>GetResume</button>
+                            <button className='btn  highlighted-btn color-button'>GetResume</button>
 
                         </a>
 
