@@ -1,5 +1,7 @@
 import React from 'react';
-import Typical from "react-typical"
+import Typical from "react-typical";
+import"./Profilo.css"
+
 
 const Profilo = () => {
     return (
@@ -7,6 +9,9 @@ const Profilo = () => {
             <div className='profile-parent'>
                 <div className='profile-details'>
                     <div className='colz'>
+
+                        <div className='colz-icon'>
+
                         <a href="https://www.facebook.com/md.mehadyhasanakash">
 
                             <i className="fa-brands fa-facebook-f"></i>
@@ -31,6 +36,7 @@ const Profilo = () => {
 
                             <i className='fa-brands fa-twitter'></i>
                         </a>
+                        </div>
 
                     </div>
 
@@ -70,15 +76,28 @@ const Profilo = () => {
 
                     <div className='profile-option'>
 
-                        <button className='btn btn-primary'>
+                        <button className='btn btn-warning'>
 
                             {""}
                             Hire me
                         </button>
+
+                        <a href="Resume_ Md Mehady Hasan Akash.pdf" download="Resume_ Md Mehady Hasan Akash.pdf">
+                            <button className='btn btn-success ml-5'>GetResume</button>
+
+                        </a>
+
                     </div>
 
 
                 </div>
+
+                                        <div className='profile-picture'>
+                                            <div className='profile-picture-background'>
+
+                                            </div>
+                                        </div>
+
 
             </div>
 

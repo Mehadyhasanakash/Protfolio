@@ -1,8 +1,9 @@
 import Profilo from "./ProtfilioContainer/Home/Profilo";
+import './App.css'
 
 function App() {
   return (
-    <div >
+    <div className="App" >
       <Profilo/>
     </div>
   );
